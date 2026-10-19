@@ -1,0 +1,85 @@
+
+
+body {
+  margin: 0;
+  background: #f4f7fb;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #243047;
+}
+
+.app-navbar {
+  background: linear-gradient(90deg, #163b70, #2864a8);
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  letter-spacing: 0.3px;
+}
+
+.navbar-nav .nav-link {
+  color: #e9f1ff;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-link.active {
+  color: white;
+  border-bottom: 2px solid white;
+}
+
+.page-content {
+  padding-top: 45px;
+  padding-bottom: 50px;
+}
+
+.card {
+  border-radius: 14px;
+}
+
+.table thead th {
+  padding: 15px;
+  white-space: nowrap;
+}
+
+.table tbody td {
+  padding: 14px 15px;
+}
+
+.form-card {
+  max-width: 620px;
+}
+
+.form-control {
+  padding: 11px 12px;
+  border-radius: 8px;
+}
+
+.form-control:focus {
+  border-color: #2864a8;
+  box-shadow: 0 0 0 0.2rem rgba(40, 100, 168, 0.15);
+}
+
+.btn-primary {
+  background-color: #245b9e;
+  border-color: #245b9e;
+  padding: 11px;
+  border-radius: 8px;
+}
+
+.btn-primary:hover {
+  background-color: #163b70;
+  border-color: #163b70;
+}
+
+@media (max-width: 576px) {
+  .page-content {
+    padding-top: 28px;
+  }
+
+  .navbar-brand {
+    font-size: 17px;
+  }
+
+  .navbar-nav {
+    gap: 8px !important;
+  }
+}
